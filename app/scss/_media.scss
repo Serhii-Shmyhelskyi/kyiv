@@ -1,15 +1,7 @@
 @media (max-width: 1075px) {
-    // .about__dot--1 {
-    //     top: 150px;
-    //     left: 75px;
-    // }
     .about__dot--2 {
         left: 200px;
     }
-    // .about__dot--3 {
-    //     top: 133px;
-    //     right: 260px;
-    // }
     .about__dot--4 {
         right: 385px;
     }
@@ -105,6 +97,7 @@
     }
     .footer__item {
         margin-bottom: 15px;
+        cursor: pointer;
     }
 }
 
@@ -279,9 +272,12 @@
 }
 
 
-@media (min-width: 841px) {
+@media (min-width: 840px) {
     .footer__item-title {
         pointer-events: none;
+    }
+    .footer__item-list {
+        display: block !important;
     }
 }
 
